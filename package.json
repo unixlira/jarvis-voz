@@ -1,0 +1,11 @@
+{
+  "name": "jarvis-voz",
+  "version": "2.0.0",
+  "description": "Asistente de voz en el navegador de tu computadora: Gemini Live para la voz y Claude Code (o Codex / Gemini CLI) para las tareas, con equipo de especialistas.",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": { "start": "node server.mjs", "diagnostico": "node server.mjs --diagnostico" },
+  "engines": { "node": ">=18.17" },
+  "license": "MIT",
+  "dependencies": { "ws": "8.22.0" }
+}
